@@ -1,0 +1,82 @@
+[
+  {
+    "id": 7,
+    "image": "/images/netflix-fake.png",
+    "label": "phishing",
+    "title": "Netflix Account Suspension",
+    "explanation": "This is a phishing site. Notice the suspicious domain (media.netflix.com), fake suspension notice, and urgency to enter payment details.",
+    "indicators": ["Suspicious domain: media.netflix.com", "Fake suspension notice", "Urgency to update payment", "Design inconsistencies"]
+  },
+  {
+    "id": 3,
+    "image": "/images/apple-real.png",
+    "label": "real",
+    "title": "Apple Store India",
+    "explanation": "This is the legitimate Apple Store India website. Notice the correct domain (apple.com/in), clean Apple design with black navigation, proper product categories, and official Apple branding throughout.",
+    "indicators": ["Correct domain: apple.com/in", "Clean Apple design", "Official Apple branding", "Proper product categories", "No urgent security alerts"]
+  },
+  {
+    "id": 1,
+    "image": "/images/tiffany-fake.png",
+    "label": "phishing",
+    "title": "Tiffany & Co. Store",
+    "explanation": "This is a phishing site. Notice the suspicious '80% OFF' banner which is unrealistic for a luxury brand like Tiffany & Co., and the overall design inconsistencies that don't match the legitimate brand.",
+    "indicators": [ "tiffany.app.yy is a fake domain name","Suspicious promotional banner", "Design inconsistencies", "Too good to be true offers"]
+  },
+  {
+    "id": 9,
+    "image": "/images/google-real.png",
+    "label": "real",
+    "title": "Google Search",
+    "explanation": "This is the legitimate Google search page. Notice the correct domain (google.com), proper SSL certificate, and familiar Google branding.",
+    "indicators": ["Correct domain: google.com", "Proper SSL certificate", "Familiar Google branding", "No urgent messages"]
+  },
+  {
+    "id": 5,
+    "image": "/images/paypal-fake.png",
+    "label": "phishing",
+    "title": "PayPal Login",
+    "explanation": "This is a phishing site. Notice the suspicious domain (pay-pail.com) which is a misspelling of paypal.com, red error indicators on the login form, and pressure tactics to create urgency.",
+    "indicators": ["Suspicious domain: pay-pail.com", "Misspelled URL", "Red error indicators", "Pressure tactics", "Creates false urgency"]
+  },
+  {
+    "id": 8,
+    "image": "/images/facebook-real.png",
+    "label": "real",
+    "title": "Facebook Login Page",
+    "explanation": "This is the legitimate Facebook login page. Notice the correct domain (facebook.com), familiar blue Facebook branding, standard login form with email/phone and password fields, and proper security features.",
+    "indicators": ["Correct domain: facebook.com", "Familiar blue Facebook branding", "Standard login form", "Proper security features", "No urgent account alerts"]
+  },
+  {
+    "id": 2,
+    "image": "/images/microsoft-fake.webp",
+    "label": "phishing",
+    "title": "Microsoft Office 365 Portal",
+    "explanation": "This is a phishing site. Notice the suspicious background image and layout that doesn't match Microsoft's standard Office 365 login page, along with potential domain inconsistencies.",
+    "indicators": ["Suspicious background image", "Non-standard Microsoft layout", "Domain inconsistencies", "Unusual design elements", "Doesn't match official Microsoft branding"]
+  },
+  {
+    "id": 10,
+    "image": "/images/amazon-real.png",
+    "label": "real",
+    "title": "Amazon India Homepage",
+    "explanation": "This is the legitimate Amazon India website. Notice the correct domain (amazon.in), familiar Amazon orange branding, proper navigation with search bar, product categories, and professional e-commerce layout.",
+    "indicators": ["Correct domain: amazon.in", "Familiar Amazon orange branding", "Professional e-commerce layout", "Proper navigation", "No urgent account alerts"]
+  },
+  {
+    "id": 6,
+    "image": "/images/twitter-fake.png",
+    "label": "phishing",
+    "title": "Twitter Home",
+    "explanation": "This is not the legitimate Twitter website. Notice the domain (x.home.app), familiar Twitter branding, and proper design but not the exact domain name.",
+    "indicators": ["Correct domain: twitter.com", "Familiar Twitter branding", "Proper design", "No urgent messages"]
+  },
+  {
+    "id": 4,
+    "image": "/images/google-fake.png",
+    "label": "phishing",
+    "title": "Google Account Verification",
+    "explanation": "This is a phishing site. Notice the suspicious domain (google-verify.net), fake verification request, and threat language.",
+    "indicators": ["Fake domain: google-verify.net", "Fake verification", "Threat language", "Account suspension threat"]
+  }
+]
